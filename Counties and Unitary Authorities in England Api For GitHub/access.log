@@ -1,0 +1,10 @@
+
+const logFilePath = path.join(__dirname, 'access.log');
+
+   fs.writeFile(logFilePath, '', (err) => {
+     if (err) {
+       console.error('Error creating access log file:', err);
+       return;
+     }
+     console.log('Access log file created successfully.');
+   });::1 - - [10/Jan/2024:17:15:30 +0000] "GET /main/changes HTTP/1.1" 200 2303 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15"
