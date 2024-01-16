@@ -65,8 +65,8 @@ Accessing Endpoints
 
 Include the API key as a query parameter in your URL or use the apiKey in the headers.
 Example URL: http://localhost:3000/main/place?api_key=YOUR_API_KEY&use_header=false
-Response Format
 
+Response Format
 All responses are in JSON format.
 
         Conclusion
