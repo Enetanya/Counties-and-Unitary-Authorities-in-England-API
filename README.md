@@ -50,9 +50,11 @@ Headers: apiKey: YOUR_API_KEY
 URL: http://localhost:3000/main/place/Name?api_key=YOUR_API_KEY
 
      Error Handling
+
 GET /main/place:
 
 Possible Errors: Server error (500) if issues fetching data.
+
 GET /main/place/:Name:
 
 Possible Errors: "Not found" error (404) for non-existent Counties or Unitary Authorities, and server errors (500) for database issues.
